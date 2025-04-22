@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Vazirmatn', sans-serif;
+  background-color: #e6f2ff;
+  text-align: center;
+  direction: rtl;
+  user-select: none;
+}
+
+.game-title {
+  margin: 20px 0;
+  color: #333;
+}
+
+#game-area {
+  position: relative;
+  width: 90%;
+  max-width: 400px;
+  height: 500px;
+  margin: 0 auto;
+  border: 3px solid #ffffff ;
+  border-radius: 15px;
+  overflow: hidden;
+
+  background-image: url("https://raw.githubusercontent.com/Amir24NZ/nazi/refs/heads/main/img/bc.png");
+  background-size: cover;
+  background-position: center;
+}
+
+#player {
+  position: absolute;
+  bottom: 10px;
+  left: 150px;
+  width: 60px;
+  height: 90px;
+  background-image: url("https://raw.githubusercontent.com/Amir24NZ/nazi/refs/heads/main/img/naziG.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 10;
+}
+
+.item {
+  position: absolute;
+  top: 0;
+  width: 40px;
+  height: 40px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  animation: fall 4s linear;
+}
+
+@keyframes fall {
+  to { top: 100%; }
+}
+
+#score {
+  margin-top: 10px;
+  font-size: 18px;
+}

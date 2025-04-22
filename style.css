@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e6f2ff;
+    font-family: 'Vazirmatn', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    direction: rtl;
+    flex-direction: column;
+  }
+
+  .game-title {
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* حالت فان و بازی‌طور */
+    color: black;
+    margin-top: 20px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5); /* یه سایه‌ی قشنگ */
+  }
+
+  .game-nz {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* حالت فان و بازی‌طور */
+    color: black;
+    margin-top: 20px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5); /* یه سایه‌ی قشنگ */
+  }
+
+  .game-b {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* حالت فان و بازی‌طور */
+    color: red;
+    margin-top: 20px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5); /* یه سایه‌ی قشنگ */
+  }
+  
+  
+  .dialogue-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  #dialogue-text {
+    font-size: 18px;
+    color: #444;
+    margin-top: 15px;
+    line-height: 1.8;
+  }
+  
+  button {
+    padding: 12px 20px;
+    font-size: 17px;
+    background-color: #66b3ff ;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #3399ff;
+  }
+  
+
+  .nazi-wrapper {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 300px;         /* فقط این مقدار از عکس دیده بشه */
+    width: 350px;
+    overflow: hidden;      /* بقیه‌ش بریده میشه */
+    z-index: 2;
+  }
+  
+  .nazi-img {
+    height: 500px;         /* کل عکس ۵۰۰ پیکسله */
+    width: auto;
+    display: block;
+  }
+

@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #e6f0ff, #ffffff);
+    font-family: "Vazirmatn", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    direction: rtl;
+  }
+  
+  #end-screen {
+    text-align: center;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 102, 204, 0.4);
+    max-width: 90%;
+  }
+  
+  #character {
+    max-width: 250px;
+    margin-bottom: 1.5rem;
+  }
+  
+  #dialogue {
+    font-size: 1.5rem;
+    color: #004080;
+    margin-bottom: 1.5rem;
+  }
+  
+  #next-btn {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 0.7rem 2rem;
+    font-size: 1rem;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #next-btn:hover {
+    background-color: #0056b3;
+  }
